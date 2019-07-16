@@ -4,12 +4,6 @@ const fs = require('fs');
 const fields = [
   'abbreviatedSha',
   'sha',
-  'branch',
-  'tag',
-  'lastTag',
-  'committerDate',
-  'commitsSinceLastTag',
-  'commitMessage',
 ];
 
 const run = () => {
